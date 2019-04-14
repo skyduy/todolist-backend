@@ -5,7 +5,7 @@ from rest_framework import filters
 
 
 class TaskOrdering(filters.OrderingFilter):
-    allowed_custom_filters = {'-priority', 'expired'}
+    allowed_custom_filters = {'-created', '-priority', 'expired'}
 
     def filter_queryset(self, request, queryset, view):
         params = self.get_ordering(request, queryset, view);
