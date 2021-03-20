@@ -1,4 +1,4 @@
-Django==1.8
+Django==1.11.29
 djangorestframework==3.11.2
 Markdown==3.1
 Pygments==2.3.1
